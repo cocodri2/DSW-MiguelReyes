@@ -1,0 +1,31 @@
+header{
+    background-color:gray;
+    padding: 20px;
+}
+nav{
+    background-color:cadetblue;
+    color:black;
+    padding: 10px;
+}
+section{
+    float:left;
+    width:70%;
+    color:red;
+    background-color:royalblue;
+}
+aside{
+    width: 30%;
+    color:white;
+    float: right;
+    background-color:teal;
+}
+footer{
+    color:white;
+    background-color:blue;
+    padding: 10px;
+}
+article{
+    color:black;
+    background-color:burlywood;
+    padding: 10px;
+}

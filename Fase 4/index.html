@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas, listas y enlaces</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Etiquetas semánticas, listas y enlaces</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>Temas</li>
+            <ul>
+                <li>
+                    <a href="tema1.html">Tema 1</a>
+                </li>
+                <li>
+                    <a href="tema2.html">Tema 2</a>
+                </li>
+            </ul>
+            <li>Recursos Digitales</li>
+            <ul>
+                <li>
+                    <a href="recurso1.html">Recurso 1</a>
+                </li>
+                <li><a href="recurso2.html">Recurso 2</a>
+                </li>
+            </ul>
+            <li>Aprendizaje</li>
+            <ul>
+                <li><a href="Cuestionario1.html">Actividad 1</a>
+                </li>
+                <li><a href="Cuestionario2.html">Actividad 2</a>
+                </li>
+            </ul>
+            <li>Acerca de</li>
+            <ul>
+                <li>
+                    <a href="autor.html">Autor</a>
+                </li>
+            </ul>
+    </nav>
+    <div class="Contenedor">
+        <section>
+            <h1>Sitio web sobre aprendizaje de etiquetas semánticas, listas y enlaces</h1>
+            <p>El propósito de este sitio web es fomentar el aprendizaje de tematicas <br>
+                relacionadas a etiquetas semánticas y ayudar a las personas que ingresen a <br>
+                este sitio web a entenderlas mejor y aclarar sus dudas sobre el tema.</p>
+        </section>
+        <article>
+            <h3>Etiquetas Semánticas</h3>
+            <p>
+                HTML5 incorpora nuevas etiquetas pensadas para hacer que la estructura de <br>
+                la página web sea más lógica y funcional. Antes de HTML5, la estructura de una <br>
+                página se basaba fundamentalmente en etiquetas < div>, generalmente asociadas a una <br>
+                    clase o a un id. Por ejemplo, en HTML 4.0 para definir la cabecera de una página web se <br>
+                    suele utilizar algo como: < div id="header"> Nombre de la cabecera < /div> <br>
+                            De esta forma, para definir por ejemplo la anchura, altura y color de fondo de la cabecera
+                            <br>
+                            en el código CSS se utilizaría por ejemplo: #header {width:960px; height:100px;
+                            background-color:blue;}
+                            <h6>Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Málaga, Spain: Editorial ICB.
+                                <br>
+                                Recuperado de
+                                https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045?page=28.</h6>
+            </p>
+
+            <h3>Etiquetas Semánticas</h3>
+            <p>
+                En la especificación HTML5 existe ya una etiqueta llamada < header> que viene a sustituir al elemento <
+                        div> <br>
+                        de forma que la sintaxis es mucho más lógica y coherente, se trata de un tipo de etiqueta
+                        llamada semántica <br>
+                        porque da una noción del tipo de contenido que englobará: < header> Nombre de la cabecera <
+                                /header> <br>
+                                En este ejemplo ya se pueden añadir directamente las propiedades de estilo (ancho, alto,
+                                color de fondo, etc.) <br>
+                                en una regla para el nuevo elemento header de CSS: header {width:960px; height:100px;
+                                background-color:blue;} <br>
+                                En definitiva, en HTML5 se incorporan las etiquetas semánticas:  < header>...< /header>
+                                        : Para definir la cabecera de la página. <br>
+                                        < footer>...< /footer>: Para definir el pie de página. Normalmente contiene
+                                                datos sobre quien ha creado la página, datos del copyright, <br>
+                                                etc.  < nav>...< /nav>: Permite definir un elemento de navegación de la
+                                                        página web, como el menú principal o menús secundarios.  <br>
+                                                        < section>...< /section>: Se utilizan para encerrar el código
+                                                                correspondiente a una sección genérica dentro de un
+                                                                documento. <br>
+                                                                < aside>...< /aside>: Sirve para delimitar todo aquel
+                                                                        contenido que no es directamente contenido
+                                                                        principal de esa página en concreto. <br>
+                                                                        Puede usarse por tanto para todos aquellos
+                                                                        elementos secundarios como bloques
+                                                                        publicitarios, enlaces externos, citas, un
+                                                                        calendario, etc. <br>
+                                                                        < article>...< /article>: Se utiliza para
+                                                                                definir artículos como noticias,
+                                                                                entradas de un blog, etc. Es
+                                                                                probablemente uno de los más <br>
+                                                                                importantes de HTML5, ya que permite
+                                                                                indicar cuál es el contenido de una
+                                                                                página web. El siguiente ejemplo podría
+                                                                                ser una visualización <br>
+                                                                                esquemática de la estructura de una
+                                                                                página web utilizando las nuevas
+                                                                                etiquetas semánticas de HTML5:
+                                                                                <h6>Celaya Luna, A. (2014). Creación de
+                                                                                    páginas web: HTML 5. Málaga, Spain:
+                                                                                    Editorial ICB. <br>
+                                                                                    Recuperado de
+                                                                                    https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045?page=29.
+                                                                                </h6>
+            </p>
+
+            <img src="img/Ej sem HTML 5.PNG" alt="Ejemplo etiquetas sémanticas"> <br>
+
+            <img src="img/Mockup.PNG" alt="Mockup">
+        </article>
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=144172202277444"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        <h6> Email: mareyeslo@unadvirtual.edu.co <br>
+            Skype: miguel.angel.reyes.lopez</h6>
+    </footer>
+
+
+</body>
+
+</html>
